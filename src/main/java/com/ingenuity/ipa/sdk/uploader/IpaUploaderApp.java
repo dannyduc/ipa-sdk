@@ -22,11 +22,11 @@ public class IpaUploaderApp {
 
     private static final Logger logger = Logger.getLogger(IpaUploaderApp.class);
 
-    private static final String SSO_ENDPOINT = "https://apps.ingenuity.com";
-    private static final String IPA_ENDPOINT = "https://analysis.ingenuity.com";
+//    private static final String SSO_ENDPOINT = "https://apps.ingenuity.com";
+//    private static final String IPA_ENDPOINT = "https://analysis.ingenuity.com";
 
-//    private static final String SSO_ENDPOINT = "https://apps-stable.ingenuity.com";
-//    private static final String IPA_ENDPOINT = "https://analysis-stable.ingenuity.com";
+    private static final String SSO_ENDPOINT = "https://apps-stable.ingenuity.com";
+    private static final String IPA_ENDPOINT = "https://analysis-stable.ingenuity.com";
 
     public static void main(String[] args) throws Exception {
 

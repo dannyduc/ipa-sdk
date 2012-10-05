@@ -22,7 +22,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.ingenuity.imstool.GetUserID</mainClass>
+                            <mainClass>com.ingenuity.ipa.sdk.uploader.IpaUploaderApp</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

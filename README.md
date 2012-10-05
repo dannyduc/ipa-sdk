@@ -4,8 +4,11 @@ Script to upload data set into IPA from an IPA URL Integration module formatted 
 
 To build:
     
-    mvn assembly:single
+    mvn package assembly:single
 
 To run:
     
-    java -cp .:target/ipa-sdk-jar-with-dependencies.jar <ipaUserEmail> <ipaPassword> <integrationApiFormattedFile.html>
+    java -cp .:target/ipa-sdk-jar-with-dependencies.jar java \
+      -cp ipa-sdk-jar-with-dependencies.jar \
+      com.ingenuity.ipa.sdk.uploader.IpaUploaderApp \
+      <ipaUserEmail> <ipaPassword> <integrationApiFormattedFile.html>
