@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#
+# To create the target jar file
+#   mvn assembly:single
+#
+# Run this script from the ipa-sdk directory:
+#   src/scripts/upload.sh "file.html"
+#
+
+java -jar target/ipa-sdk-jar-with-dependencies.jar $*
