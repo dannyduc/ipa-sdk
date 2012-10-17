@@ -8,6 +8,5 @@ To build:
 
 To run:
     
-    java -cp target/ipa-sdk-jar-with-dependencies.jar \
-      com.ingenuity.ipa.sdk.uploader.IpaUploaderApp \
-      <ipaUserEmail> <ipaPassword> <integrationApiFormattedFile.html>
+    java -jar target/ipa-sdk-jar-with-dependencies.jar \
+      <proxyHost:port|none> <ipaUserEmail> <ipaPassword> <integrationApiFormattedFile.html>
